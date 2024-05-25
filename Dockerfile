@@ -15,6 +15,7 @@
 #CMD ["./mvnw", "spring-boot:run"]
 
 FROM eclipse-temurin:17-jdk-focal
+RUN apt-get update
 RUN apt-get install maven -y
 
 WORKDIR /app
