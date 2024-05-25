@@ -26,4 +26,4 @@ COPY src ./src
 RUN mvn clean install
 
 EXPOSE 8080
-CMD ["java", "-jar", "/target/product-0.0.1-SNAPSHOT.jar"]
+CMD ["java", "-jar", "target/product-0.0.1-SNAPSHOT.jar"]
